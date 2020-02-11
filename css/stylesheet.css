@@ -1,0 +1,26 @@
+.container{
+	min-height: 250px;
+	margin-top: 0;
+}
+.display-1{
+	margin-bottom: 0;
+}
+.btn{
+	margin: 25px auto;
+}
+
+
+
+
+
+@media (min-width: 1800px){
+	.container{
+		max-width: 1500px;
+	}
+}
+
+@media (max-width: 650px){
+	.display-1{
+		font-size: 3.5rem;
+	}
+}

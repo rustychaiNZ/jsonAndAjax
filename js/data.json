@@ -1,0 +1,2 @@
+// Has to have the array in side of ''
+myData = '[{"name" : "Raja", "age" : 92},{"name" : "Shelia", "age" : 12}]';
