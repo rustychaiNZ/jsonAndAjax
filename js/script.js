@@ -61,7 +61,7 @@ function writeData(){
 			'</div>';
 			for(i = 0; i < data.length; i++){
 				document.getElementById('resultAjax').innerHTML += 
-				'<div class="col-sm-6 col-md-4">' +
+				'<div class="col-md-6 col-xl-4">' +
 					'<h3><b>Person ' + (i+1) + ': </b>' + data[i].first_name + ' ' + data[i].last_name + '</h3>' +
 					'<p><b>Gender:</b> ' + data[i].gender + '<br>' +
 					'<b>Email Address:</b> ' + data[i].email + '<br>' +
@@ -71,7 +71,7 @@ function writeData(){
 			}
 		},
 		error : function(){
-			console.log('error');
+			console.log('Error. Failed to load database');
 		}
 	});
 }
