@@ -54,7 +54,6 @@ function writeData(){
 		type : 'GET' ,
 		data : 'json' ,
 		success : function(data){
-			console.log(data);
 			document.getElementById('resultAjax').innerHTML = 
 			'<div class="col-12">' + 
 				'<h2 class="display-2 text-center">From AJAX</h2><br>' + 
